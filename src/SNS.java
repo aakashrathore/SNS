@@ -40,7 +40,7 @@ public class SNS {
 	public SNS()
 	{
 		//create a new SNS client
-	    AWSCredentials awsCredentials = new BasicAWSCredentials("AKIAIIVCSDMHC2QWB3BA", "PhN/18CEzuv0PD7/jioPwpyGKtYyliYeurUWJL7X");
+	    AWSCredentials awsCredentials = new BasicAWSCredentials("key", "password");
 	    //new ClasspathPropertiesFileCredentialsProvider()
 		snsClient = new AmazonSNSClient(awsCredentials);	
 		topicArn = "";
